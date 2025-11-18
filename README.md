@@ -96,7 +96,7 @@ classDiagram
 ---
 
 ## Backlog (Histórias de Usuário)
-
+#REFAZER
 | ID | História | Critérios de Aceitação | Prioridade |
 |----|----------|-------------------------|------------|
 | US01 | Upload/download de curvas de luz | Preview carregado | Alta |
@@ -117,21 +117,26 @@ classDiagram
 - Modelagem preliminar  
 
 ### **Sprint 2 — Estrutura e Pré-processamento**
-- Estrutura de pastas  
-- Setup do ambiente  
-- Funções de carregamento e limpeza  
+- Busca por datasets de curva de luz
+- Estudo sobre BLS (entender que dados são relevantes do dataset)
+- Pré-processamento inicial
+- Manter documentação teórica necessária atualizada  
 
-### **Sprint 3 — Implementação do BLS**
-- Algoritmo funcionando  
-- Detecção de períodos candidatos  
+### **Sprint 3 — Implementação do BLS**  
+- Implementação do BLS
+- Detecção de trânsitos (Detecção de períodos candidatos)
 - Visualizações preliminares  
+- Testes iniciais
+- Manter documentação teórica necessária atualizada  
 
 ### **Sprint 4 — Machine Learning**
+#REFAZER
 - Treinamento do classificador  
 - Pipeline integrado  
 - Ajustes gerais  
 
 ### **Sprint 5 — Finalização**
+#REFAZER
 - Testes  
 - Documentação final  
 - Versão final no GitHub  
